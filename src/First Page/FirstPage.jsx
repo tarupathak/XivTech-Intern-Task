@@ -18,22 +18,22 @@ const FirstPage = () => {
             Future-Proof your business. Drive efficiency, profitability and
             deliver on customer experience
           </p>
-          <NavLink to={""}>
+          <NavLink to={"/details1"}>
             <p className="link">
               <span>AI + RPA Automation</span>
-              <img src={arrow} alt="arrow" className="arrow" />
+              <img src={arrow} alt="arrow" className="arrow"  />
             </p>
           </NavLink>
         </div>
         <div>
-          <img src={img1} alt="ai/rpa image" className="pic" />
+          <img src={img1} alt="ai/rpa image" className="pic1" />
         </div>
       </div>
       <div className="topics">
         <div className="content">
           <h1>Make Bolder Choices</h1>
           <p>Digital focused strategies to realize market-changing ideas</p>
-          <NavLink>
+          <NavLink to={"/details2"}>
             <p className="link">
               <span>Build Better Apps</span>
               <img src={arrow} alt="arrow" className="arrow" />
@@ -51,7 +51,7 @@ const FirstPage = () => {
             Create higher quality software, deliver on customer expectations and
             business goals
           </p>
-          <NavLink>
+          <NavLink  to={"/details3"}>
             <p className="link">
               <span>DevOps</span>
               <img src={arrow} alt="arrow" className="arrow" />
@@ -66,7 +66,7 @@ const FirstPage = () => {
         <div className="content">
           <h1>Embrace Cloud</h1>
           <p>With Cloud-First accelerate innovation and optimize performance</p>
-          <NavLink>
+          <NavLink  to={"/details4"}>
             <p className="link">
               <span>Cloud Services</span>
               <img src={arrow} alt="arrow" className="arrow" />
@@ -77,6 +77,7 @@ const FirstPage = () => {
           <img src={img4} alt="ai/rpa image" className="pic" />
         </div>
       </div>
+      <div className="btn">Get in Touch</div>
     </div>
   );
 };

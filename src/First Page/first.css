@@ -36,6 +36,35 @@
   margin-left: -3vw;
   font-size: 1.8vw;
   font-weight: 500;
+  
 }
 
+.link span{
+  text-decoration: none;
+  color: black;
+}
 
+.pic1{
+  height: 70vh;
+  width: 42vw;
+  margin-left: 1vw;
+  margin-top: -4vh;
+}
+
+.btn{
+  color: white;
+  background-color: black;
+  height: 7vh;
+  width: 13vw;
+  font-size: 1.2vw;
+  border-radius: .2rem;
+  text-align: center;
+  padding-top: 2.5vh;
+  margin: 4vh 7vw;
+}
+
+.btn:hover{
+  border: 2px solid black;
+  color: black;
+  background-color: white;
+}
